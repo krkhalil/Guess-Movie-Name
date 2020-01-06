@@ -1,0 +1,1328 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+-[ViewController viewWillAppear:]
+-[ViewController playButtonTouched:]
+_OBJC_CLASS_$_ViewController
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/ViewController.m
+/Users/Macbook/Desktop/Guess The Movie
+-[SCLAlertViewResponder init:]
+-[SCLAlertViewResponder setTitletitle:]
+-[SCLAlertViewResponder setSubTitle:]
+-[SCLAlertViewResponder close]
+-[SCLAlertViewResponder alertview]
+-[SCLAlertViewResponder setAlertview:]
+-[SCLAlertViewResponder .cxx_destruct]
+_OBJC_IVAR_$_SCLAlertViewResponder._alertview
+_OBJC_METACLASS_$_SCLAlertViewResponder
+_OBJC_CLASS_$_SCLAlertViewResponder
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLAlertViewResponder.m
+-[SCLTimerDisplay initWithFrame:]
+-[SCLTimerDisplay initWithOrigin:radius:]
+-[SCLTimerDisplay initWithOrigin:radius:lineWidth:]
+-[SCLTimerDisplay updateFrame:]
+-[SCLTimerDisplay drawRect:]
+-[SCLTimerDisplay startTimerWithTimeLimit:completed:]
+-[SCLTimerDisplay cancelTimer]
+-[SCLTimerDisplay stopTimer]
+-[SCLTimerDisplay updateTimerButton:]
+-[SCLTimerDisplay currentAngle]
+-[SCLTimerDisplay setCurrentAngle:]
+-[SCLTimerDisplay buttonIndex]
+-[SCLTimerDisplay setButtonIndex:]
+-[SCLTimerDisplay color]
+-[SCLTimerDisplay setColor:]
+-[SCLTimerDisplay reverse]
+-[SCLTimerDisplay setReverse:]
+-[SCLTimerDisplay countLabel]
+-[SCLTimerDisplay setCountLabel:]
+-[SCLTimerDisplay .cxx_destruct]
+_OBJC_CLASS_$_SCLTimerDisplay
+_OBJC_IVAR_$_SCLTimerDisplay.currentAngle
+_OBJC_IVAR_$_SCLTimerDisplay.radius
+_OBJC_IVAR_$_SCLTimerDisplay.lineWidth
+_OBJC_IVAR_$_SCLTimerDisplay._countLabel
+_OBJC_IVAR_$_SCLTimerDisplay.currentTime
+_OBJC_IVAR_$_SCLTimerDisplay._reverse
+_OBJC_IVAR_$_SCLTimerDisplay.timerLimit
+_OBJC_IVAR_$_SCLTimerDisplay.timer
+_OBJC_IVAR_$_SCLTimerDisplay.completedBlock
+_OBJC_IVAR_$_SCLTimerDisplay._color
+_OBJC_IVAR_$_SCLTimerDisplay._buttonIndex
+_OBJC_METACLASS_$_SCLTimerDisplay
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLTimerDisplay.m
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLTimerDisplay.h
+-[SCLSwitchView init]
+-[SCLSwitchView initWithCoder:]
+-[SCLSwitchView initWithFrame:]
+-[SCLSwitchView setup]
+-[SCLSwitchView tintColor]
+-[SCLSwitchView labelColor]
+-[SCLSwitchView labelFont]
+-[SCLSwitchView labelText]
+-[SCLSwitchView isSelected]
+-[SCLSwitchView setTintColor:]
+-[SCLSwitchView setLabelColor:]
+-[SCLSwitchView setLabelFont:]
+-[SCLSwitchView setLabelText:]
+-[SCLSwitchView setSelected:]
+-[SCLSwitchView switchKnob]
+-[SCLSwitchView setSwitchKnob:]
+-[SCLSwitchView switchLabel]
+-[SCLSwitchView setSwitchLabel:]
+-[SCLSwitchView .cxx_destruct]
+_OBJC_CLASS_$_SCLSwitchView
+_OBJC_IVAR_$_SCLSwitchView._switchKnob
+_OBJC_IVAR_$_SCLSwitchView._switchLabel
+_OBJC_METACLASS_$_SCLSwitchView
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLSwitchView.m
++[SCLAlertViewStyleKit initialize]
++[SCLAlertViewStyleKit drawCheckmark]
++[SCLAlertViewStyleKit drawCross]
++[SCLAlertViewStyleKit drawNotice]
++[SCLAlertViewStyleKit drawWarning]
++[SCLAlertViewStyleKit drawInfo]
++[SCLAlertViewStyleKit drawEdit]
++[SCLAlertViewStyleKit drawQuestion]
++[SCLAlertViewStyleKit imageOfCheckmark]
++[SCLAlertViewStyleKit imageOfCross]
++[SCLAlertViewStyleKit imageOfNotice]
++[SCLAlertViewStyleKit imageOfWarning]
++[SCLAlertViewStyleKit imageOfInfo]
++[SCLAlertViewStyleKit imageOfEdit]
++[SCLAlertViewStyleKit imageOfQuestion]
+_imageOfCheckmark
+_imageOfCross
+_imageOfNotice
+_imageOfWarning
+_imageOfInfo
+_imageOfEdit
+_imageOfQuestion
+_OBJC_CLASS_$_SCLAlertViewStyleKit
+_OBJC_METACLASS_$_SCLAlertViewStyleKit
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLAlertViewStyleKit.m
+_OBJC_CLASS_$_AppDelegate
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/main.m
+main
+-[SCLAlertView initWithCoder:]
+-[SCLAlertView init]
+-[SCLAlertView initWithWindowWidth:]
+-[SCLAlertView initWithNewWindow]
+-[SCLAlertView initWithNewWindowWidth:]
+-[SCLAlertView dealloc]
+-[SCLAlertView addObservers]
+-[SCLAlertView removeObservers]
+-[SCLAlertView setupViewWindowWidth:]
+-[SCLAlertView setupNewWindow]
+-[SCLAlertView isModal]
+-[SCLAlertView viewWillLayoutSubviews]
+-[SCLAlertView prefersStatusBarHidden]
+-[SCLAlertView preferredStatusBarStyle]
+-[SCLAlertView handleTap:]
+-[SCLAlertView setShouldDismissOnTapOutside:]
+-[SCLAlertView disableInteractivePopGesture]
+-[SCLAlertView restoreInteractivePopGesture]
+-[SCLAlertView setTitleFontFamily:withSize:]
+-[SCLAlertView setBodyTextFontFamily:withSize:]
+-[SCLAlertView setButtonsTextFontFamily:withSize:]
+-[SCLAlertView setBackgroundViewColor:]
+-[SCLAlertView setSoundURL:]
+-[SCLAlertView setSubTitleHeight:]
+-[SCLAlertView addActivityIndicatorView]
+-[SCLAlertView addCustomView:]
+-[SCLAlertView addSwitchViewWithLabel:]
+-[SCLAlertView addTextField:]
+-[SCLAlertView addCustomTextField:]
+-[SCLAlertView textFieldShouldReturn:]
+-[SCLAlertView keyboardWillShow:]
+___33-[SCLAlertView keyboardWillShow:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SCLAlertView keyboardWillHide:]
+___33-[SCLAlertView keyboardWillHide:]_block_invoke
+___copy_helper_block_.254
+___destroy_helper_block_.255
+-[SCLAlertView addButton:]
+-[SCLAlertView addDoneButtonWithTitle:]
+-[SCLAlertView addButton:actionBlock:]
+-[SCLAlertView addButton:validationBlock:actionBlock:]
+-[SCLAlertView addButton:target:selector:]
+-[SCLAlertView buttonTapped:]
+-[SCLAlertView addTimerToButtonIndex:reverse:]
+-[SCLAlertView showTitle:image:color:title:subTitle:duration:completeText:style:]
+___81-[SCLAlertView showTitle:image:color:title:subTitle:duration:completeText:style:]_block_invoke
+___copy_helper_block_.398
+___destroy_helper_block_.399
+-[SCLAlertView showSuccess:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showError:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showNotice:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showWarning:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showInfo:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showEdit:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showTitle:title:subTitle:style:closeButtonTitle:duration:]
+-[SCLAlertView showCustom:image:color:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showWaiting:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showQuestion:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showSuccess:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showError:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showNotice:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showWarning:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showInfo:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showEdit:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showTitle:subTitle:style:closeButtonTitle:duration:]
+-[SCLAlertView showCustom:color:title:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showWaiting:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView showQuestion:subTitle:closeButtonTitle:duration:]
+-[SCLAlertView removeTopCircle]
+-[SCLAlertView isVisible]
+-[SCLAlertView alertIsDismissed:]
+-[SCLAlertView alertDismissAnimationIsCompleted:]
+-[SCLAlertView alertShowAnimationIsCompleted:]
+-[SCLAlertView forceHideBlock:]
+-[SCLAlertView mainScreenFrame]
+-[SCLAlertView isAppExtension]
+-[SCLAlertView makeShadowBackground]
+-[SCLAlertView makeBlurBackground]
+-[SCLAlertView makeTransparentBackground]
+-[SCLAlertView setBackground]
+-[SCLAlertView showView]
+-[SCLAlertView hideView]
+-[SCLAlertView fadeOut]
+-[SCLAlertView fadeOutWithDuration:]
+___36-[SCLAlertView fadeOutWithDuration:]_block_invoke
+___copy_helper_block_.493
+___destroy_helper_block_.494
+___36-[SCLAlertView fadeOutWithDuration:]_block_invoke.496
+___copy_helper_block_.507
+___destroy_helper_block_.508
+-[SCLAlertView slideOutToBottom]
+___32-[SCLAlertView slideOutToBottom]_block_invoke
+___copy_helper_block_.513
+___destroy_helper_block_.514
+___32-[SCLAlertView slideOutToBottom]_block_invoke.516
+___copy_helper_block_.517
+___destroy_helper_block_.518
+-[SCLAlertView slideOutToTop]
+___29-[SCLAlertView slideOutToTop]_block_invoke
+___copy_helper_block_.520
+___destroy_helper_block_.521
+___29-[SCLAlertView slideOutToTop]_block_invoke.523
+___copy_helper_block_.524
+___destroy_helper_block_.525
+-[SCLAlertView slideOutToLeft]
+___30-[SCLAlertView slideOutToLeft]_block_invoke
+___copy_helper_block_.527
+___destroy_helper_block_.528
+___30-[SCLAlertView slideOutToLeft]_block_invoke.530
+___copy_helper_block_.531
+___destroy_helper_block_.532
+-[SCLAlertView slideOutToRight]
+___31-[SCLAlertView slideOutToRight]_block_invoke
+___copy_helper_block_.534
+___destroy_helper_block_.535
+___31-[SCLAlertView slideOutToRight]_block_invoke.537
+___copy_helper_block_.538
+___destroy_helper_block_.539
+-[SCLAlertView slideOutToCenter]
+___32-[SCLAlertView slideOutToCenter]_block_invoke
+___copy_helper_block_.543
+___destroy_helper_block_.544
+___32-[SCLAlertView slideOutToCenter]_block_invoke.546
+___copy_helper_block_.547
+___destroy_helper_block_.548
+-[SCLAlertView slideOutFromCenter]
+___34-[SCLAlertView slideOutFromCenter]_block_invoke
+___copy_helper_block_.550
+___destroy_helper_block_.551
+___34-[SCLAlertView slideOutFromCenter]_block_invoke.553
+___copy_helper_block_.554
+___destroy_helper_block_.555
+-[SCLAlertView simplyDisappear]
+___31-[SCLAlertView simplyDisappear]_block_invoke
+___copy_helper_block_.559
+___destroy_helper_block_.560
+-[SCLAlertView fadeIn]
+___22-[SCLAlertView fadeIn]_block_invoke
+___copy_helper_block_.562
+___destroy_helper_block_.563
+___22-[SCLAlertView fadeIn]_block_invoke.565
+___copy_helper_block_.568
+___destroy_helper_block_.569
+-[SCLAlertView slideInFromTop]
+___30-[SCLAlertView slideInFromTop]_block_invoke
+___copy_helper_block_.573
+___destroy_helper_block_.574
+___30-[SCLAlertView slideInFromTop]_block_invoke.576
+___copy_helper_block_.577
+___destroy_helper_block_.578
+-[SCLAlertView slideInFromBottom]
+___33-[SCLAlertView slideInFromBottom]_block_invoke
+___copy_helper_block_.582
+___destroy_helper_block_.583
+___33-[SCLAlertView slideInFromBottom]_block_invoke.585
+___33-[SCLAlertView slideInFromBottom]_block_invoke_2
+___copy_helper_block_.590
+___destroy_helper_block_.591
+___33-[SCLAlertView slideInFromBottom]_block_invoke.593
+___copy_helper_block_.594
+___destroy_helper_block_.595
+___copy_helper_block_.597
+___destroy_helper_block_.598
+-[SCLAlertView slideInFromLeft]
+___31-[SCLAlertView slideInFromLeft]_block_invoke
+___copy_helper_block_.600
+___destroy_helper_block_.601
+___31-[SCLAlertView slideInFromLeft]_block_invoke.603
+___31-[SCLAlertView slideInFromLeft]_block_invoke_2
+___copy_helper_block_.604
+___destroy_helper_block_.605
+___31-[SCLAlertView slideInFromLeft]_block_invoke.607
+___copy_helper_block_.608
+___destroy_helper_block_.609
+___copy_helper_block_.611
+___destroy_helper_block_.612
+-[SCLAlertView slideInFromRight]
+___32-[SCLAlertView slideInFromRight]_block_invoke
+___copy_helper_block_.614
+___destroy_helper_block_.615
+___32-[SCLAlertView slideInFromRight]_block_invoke.617
+___32-[SCLAlertView slideInFromRight]_block_invoke_2
+___copy_helper_block_.618
+___destroy_helper_block_.619
+___32-[SCLAlertView slideInFromRight]_block_invoke.621
+___copy_helper_block_.622
+___destroy_helper_block_.623
+___copy_helper_block_.625
+___destroy_helper_block_.626
+-[SCLAlertView slideInFromCenter]
+___33-[SCLAlertView slideInFromCenter]_block_invoke
+___copy_helper_block_.628
+___destroy_helper_block_.629
+___33-[SCLAlertView slideInFromCenter]_block_invoke.631
+___33-[SCLAlertView slideInFromCenter]_block_invoke_2
+___copy_helper_block_.632
+___destroy_helper_block_.633
+___33-[SCLAlertView slideInFromCenter]_block_invoke.635
+___copy_helper_block_.636
+___destroy_helper_block_.637
+___copy_helper_block_.639
+___destroy_helper_block_.640
+-[SCLAlertView slideInToCenter]
+___31-[SCLAlertView slideInToCenter]_block_invoke
+___copy_helper_block_.642
+___destroy_helper_block_.643
+___31-[SCLAlertView slideInToCenter]_block_invoke.645
+___31-[SCLAlertView slideInToCenter]_block_invoke_2
+___copy_helper_block_.646
+___destroy_helper_block_.647
+___31-[SCLAlertView slideInToCenter]_block_invoke.649
+___copy_helper_block_.650
+___destroy_helper_block_.651
+___copy_helper_block_.653
+___destroy_helper_block_.654
+-[SCLAlertView simplyAppear]
+___28-[SCLAlertView simplyAppear]_block_invoke
+___copy_helper_block_.656
+___destroy_helper_block_.657
+-[SCLAlertView cornerRadius]
+-[SCLAlertView setCornerRadius:]
+-[SCLAlertView tintTopCircle]
+-[SCLAlertView setTintTopCircle:]
+-[SCLAlertView useLargerIcon]
+-[SCLAlertView setUseLargerIcon:]
+-[SCLAlertView labelTitle]
+-[SCLAlertView setLabelTitle:]
+-[SCLAlertView viewText]
+-[SCLAlertView setViewText:]
+-[SCLAlertView activityIndicatorView]
+-[SCLAlertView setActivityIndicatorView:]
+-[SCLAlertView shouldDismissOnTapOutside]
+-[SCLAlertView soundURL]
+-[SCLAlertView attributedFormatBlock]
+-[SCLAlertView setAttributedFormatBlock:]
+-[SCLAlertView completeButtonFormatBlock]
+-[SCLAlertView setCompleteButtonFormatBlock:]
+-[SCLAlertView buttonFormatBlock]
+-[SCLAlertView setButtonFormatBlock:]
+-[SCLAlertView forceHideBlock]
+-[SCLAlertView setForceHideBlock:]
+-[SCLAlertView hideAnimationType]
+-[SCLAlertView setHideAnimationType:]
+-[SCLAlertView showAnimationType]
+-[SCLAlertView setShowAnimationType:]
+-[SCLAlertView backgroundType]
+-[SCLAlertView setBackgroundType:]
+-[SCLAlertView customViewColor]
+-[SCLAlertView setCustomViewColor:]
+-[SCLAlertView backgroundViewColor]
+-[SCLAlertView iconTintColor]
+-[SCLAlertView setIconTintColor:]
+-[SCLAlertView circleIconHeight]
+-[SCLAlertView setCircleIconHeight:]
+-[SCLAlertView extensionBounds]
+-[SCLAlertView setExtensionBounds:]
+-[SCLAlertView statusBarHidden]
+-[SCLAlertView setStatusBarHidden:]
+-[SCLAlertView statusBarStyle]
+-[SCLAlertView setStatusBarStyle:]
+-[SCLAlertView horizontalButtons]
+-[SCLAlertView setHorizontalButtons:]
+-[SCLAlertView inputs]
+-[SCLAlertView setInputs:]
+-[SCLAlertView customViews]
+-[SCLAlertView setCustomViews:]
+-[SCLAlertView buttons]
+-[SCLAlertView setButtons:]
+-[SCLAlertView circleIconImageView]
+-[SCLAlertView setCircleIconImageView:]
+-[SCLAlertView circleView]
+-[SCLAlertView setCircleView:]
+-[SCLAlertView circleViewBackground]
+-[SCLAlertView setCircleViewBackground:]
+-[SCLAlertView contentView]
+-[SCLAlertView setContentView:]
+-[SCLAlertView backgroundView]
+-[SCLAlertView setBackgroundView:]
+-[SCLAlertView gestureRecognizer]
+-[SCLAlertView setGestureRecognizer:]
+-[SCLAlertView titleFontFamily]
+-[SCLAlertView setTitleFontFamily:]
+-[SCLAlertView bodyTextFontFamily]
+-[SCLAlertView setBodyTextFontFamily:]
+-[SCLAlertView buttonsFontFamily]
+-[SCLAlertView setButtonsFontFamily:]
+-[SCLAlertView previousWindow]
+-[SCLAlertView setPreviousWindow:]
+-[SCLAlertView SCLAlertWindow]
+-[SCLAlertView setSCLAlertWindow:]
+-[SCLAlertView dismissBlock]
+-[SCLAlertView setDismissBlock:]
+-[SCLAlertView dismissAnimationCompletionBlock]
+-[SCLAlertView setDismissAnimationCompletionBlock:]
+-[SCLAlertView showAnimationCompletionBlock]
+-[SCLAlertView setShowAnimationCompletionBlock:]
+-[SCLAlertView rootViewController]
+-[SCLAlertView setRootViewController:]
+-[SCLAlertView restoreInteractivePopGestureDelegate]
+-[SCLAlertView setRestoreInteractivePopGestureDelegate:]
+-[SCLAlertView soundID]
+-[SCLAlertView setSoundID:]
+-[SCLAlertView canAddObservers]
+-[SCLAlertView setCanAddObservers:]
+-[SCLAlertView keyboardIsVisible]
+-[SCLAlertView setKeyboardIsVisible:]
+-[SCLAlertView usingNewWindow]
+-[SCLAlertView setUsingNewWindow:]
+-[SCLAlertView restoreInteractivePopGestureEnabled]
+-[SCLAlertView setRestoreInteractivePopGestureEnabled:]
+-[SCLAlertView backgroundOpacity]
+-[SCLAlertView setBackgroundOpacity:]
+-[SCLAlertView titleFontSize]
+-[SCLAlertView setTitleFontSize:]
+-[SCLAlertView bodyFontSize]
+-[SCLAlertView setBodyFontSize:]
+-[SCLAlertView buttonsFontSize]
+-[SCLAlertView setButtonsFontSize:]
+-[SCLAlertView windowHeight]
+-[SCLAlertView setWindowHeight:]
+-[SCLAlertView windowWidth]
+-[SCLAlertView setWindowWidth:]
+-[SCLAlertView titleHeight]
+-[SCLAlertView setTitleHeight:]
+-[SCLAlertView subTitleHeight]
+-[SCLAlertView subTitleY]
+-[SCLAlertView setSubTitleY:]
+-[SCLAlertView .cxx_destruct]
+-[SCLAlertViewBuilder__WithFluent init]
+-[SCLAlertViewBuilder__WithFluent setupFluent]
+-[SCLALertViewTextFieldBuilder setupFluent]
+___43-[SCLALertViewTextFieldBuilder setupFluent]_block_invoke
+___copy_helper_block_.1043
+___destroy_helper_block_.1044
+-[SCLALertViewTextFieldBuilder textField]
+-[SCLALertViewTextFieldBuilder setTextField:]
+-[SCLALertViewTextFieldBuilder title]
+-[SCLALertViewTextFieldBuilder setTitle:]
+-[SCLALertViewTextFieldBuilder parameterTitle]
+-[SCLALertViewTextFieldBuilder setParameterTitle:]
+-[SCLALertViewTextFieldBuilder .cxx_destruct]
+-[SCLALertViewButtonBuilder setupFluent]
+___40-[SCLALertViewButtonBuilder setupFluent]_block_invoke
+___copy_helper_block_.1066
+___destroy_helper_block_.1067
+___40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1070
+___copy_helper_block_.1073
+___destroy_helper_block_.1074
+___40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1077
+___copy_helper_block_.1080
+___destroy_helper_block_.1081
+___40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1084
+___copy_helper_block_.1087
+___destroy_helper_block_.1088
+___40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1091
+___copy_helper_block_.1094
+___destroy_helper_block_.1095
+-[SCLALertViewButtonBuilder button]
+-[SCLALertViewButtonBuilder setButton:]
+-[SCLALertViewButtonBuilder title]
+-[SCLALertViewButtonBuilder setTitle:]
+-[SCLALertViewButtonBuilder target]
+-[SCLALertViewButtonBuilder setTarget:]
+-[SCLALertViewButtonBuilder selector]
+-[SCLALertViewButtonBuilder setSelector:]
+-[SCLALertViewButtonBuilder actionBlock]
+-[SCLALertViewButtonBuilder setActionBlock:]
+-[SCLALertViewButtonBuilder validationBlock]
+-[SCLALertViewButtonBuilder setValidationBlock:]
+-[SCLALertViewButtonBuilder parameterTitle]
+-[SCLALertViewButtonBuilder setParameterTitle:]
+-[SCLALertViewButtonBuilder parameterTarget]
+-[SCLALertViewButtonBuilder setParameterTarget:]
+-[SCLALertViewButtonBuilder parameterSelector]
+-[SCLALertViewButtonBuilder setParameterSelector:]
+-[SCLALertViewButtonBuilder parameterActionBlock]
+-[SCLALertViewButtonBuilder setParameterActionBlock:]
+-[SCLALertViewButtonBuilder parameterValidationBlock]
+-[SCLALertViewButtonBuilder setParameterValidationBlock:]
+-[SCLALertViewButtonBuilder .cxx_destruct]
+-[SCLAlertViewBuilder setupFluent]
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke
+___copy_helper_block_.1141
+___destroy_helper_block_.1142
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1145
+___copy_helper_block_.1146
+___destroy_helper_block_.1147
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1150
+___copy_helper_block_.1152
+___destroy_helper_block_.1153
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1155
+___copy_helper_block_.1157
+___destroy_helper_block_.1158
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1161
+___copy_helper_block_.1163
+___destroy_helper_block_.1164
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1167
+___copy_helper_block_.1169
+___destroy_helper_block_.1170
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1173
+___copy_helper_block_.1174
+___destroy_helper_block_.1175
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1177
+___copy_helper_block_.1179
+___destroy_helper_block_.1180
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1183
+___copy_helper_block_.1185
+___destroy_helper_block_.1186
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1189
+___copy_helper_block_.1190
+___destroy_helper_block_.1191
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1194
+___copy_helper_block_.1195
+___destroy_helper_block_.1196
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1198
+___copy_helper_block_.1200
+___destroy_helper_block_.1201
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1204
+___copy_helper_block_.1205
+___destroy_helper_block_.1206
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1209
+___copy_helper_block_.1210
+___destroy_helper_block_.1211
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1213
+___copy_helper_block_.1214
+___destroy_helper_block_.1215
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1217
+___copy_helper_block_.1219
+___destroy_helper_block_.1220
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1223
+___copy_helper_block_.1224
+___destroy_helper_block_.1225
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1227
+___copy_helper_block_.1229
+___destroy_helper_block_.1230
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1232
+___copy_helper_block_.1233
+___destroy_helper_block_.1234
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1236
+___copy_helper_block_.1238
+___destroy_helper_block_.1239
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1242
+___copy_helper_block_.1244
+___destroy_helper_block_.1245
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1247
+___copy_helper_block_.1249
+___destroy_helper_block_.1250
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1252
+___copy_helper_block_.1254
+___destroy_helper_block_.1255
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1259
+___copy_helper_block_.1261
+___destroy_helper_block_.1262
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1266
+___copy_helper_block_.1268
+___destroy_helper_block_.1269
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1273
+___copy_helper_block_.1275
+___destroy_helper_block_.1276
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1281
+___copy_helper_block_.1283
+___destroy_helper_block_.1284
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1289
+___copy_helper_block_.1291
+___destroy_helper_block_.1292
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1297
+___copy_helper_block_.1299
+___destroy_helper_block_.1300
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1305
+___copy_helper_block_.1307
+___destroy_helper_block_.1308
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1312
+___copy_helper_block_.1314
+___destroy_helper_block_.1315
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1320
+___copy_helper_block_.1322
+___destroy_helper_block_.1323
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1328
+___copy_helper_block_.1330
+___destroy_helper_block_.1331
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1335
+___copy_helper_block_.1337
+___destroy_helper_block_.1338
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1342
+___copy_helper_block_.1343
+___destroy_helper_block_.1344
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1349
+___copy_helper_block_.1351
+___destroy_helper_block_.1352
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1357
+___copy_helper_block_.1359
+___destroy_helper_block_.1360
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1365
+___copy_helper_block_.1372
+___destroy_helper_block_.1373
+___34-[SCLAlertViewBuilder setupFluent]_block_invoke.1378
+___copy_helper_block_.1380
+___destroy_helper_block_.1381
+-[SCLAlertViewBuilder init]
+-[SCLAlertViewBuilder initWithNewWindow]
+-[SCLAlertViewBuilder initWithNewWindowWidth:]
+-[SCLAlertViewBuilder alertView]
+-[SCLAlertViewBuilder setAlertView:]
+-[SCLAlertViewBuilder cornerRadius]
+-[SCLAlertViewBuilder setCornerRadius:]
+-[SCLAlertViewBuilder tintTopCircle]
+-[SCLAlertViewBuilder setTintTopCircle:]
+-[SCLAlertViewBuilder useLargerIcon]
+-[SCLAlertViewBuilder setUseLargerIcon:]
+-[SCLAlertViewBuilder labelTitle]
+-[SCLAlertViewBuilder setLabelTitle:]
+-[SCLAlertViewBuilder viewText]
+-[SCLAlertViewBuilder setViewText:]
+-[SCLAlertViewBuilder activityIndicatorView]
+-[SCLAlertViewBuilder setActivityIndicatorView:]
+-[SCLAlertViewBuilder shouldDismissOnTapOutside]
+-[SCLAlertViewBuilder setShouldDismissOnTapOutside:]
+-[SCLAlertViewBuilder soundURL]
+-[SCLAlertViewBuilder setSoundURL:]
+-[SCLAlertViewBuilder attributedFormatBlock]
+-[SCLAlertViewBuilder setAttributedFormatBlock:]
+-[SCLAlertViewBuilder completeButtonFormatBlock]
+-[SCLAlertViewBuilder setCompleteButtonFormatBlock:]
+-[SCLAlertViewBuilder buttonFormatBlock]
+-[SCLAlertViewBuilder setButtonFormatBlock:]
+-[SCLAlertViewBuilder forceHideBlock]
+-[SCLAlertViewBuilder setForceHideBlock:]
+-[SCLAlertViewBuilder hideAnimationType]
+-[SCLAlertViewBuilder setHideAnimationType:]
+-[SCLAlertViewBuilder showAnimationType]
+-[SCLAlertViewBuilder setShowAnimationType:]
+-[SCLAlertViewBuilder backgroundType]
+-[SCLAlertViewBuilder setBackgroundType:]
+-[SCLAlertViewBuilder customViewColor]
+-[SCLAlertViewBuilder setCustomViewColor:]
+-[SCLAlertViewBuilder backgroundViewColor]
+-[SCLAlertViewBuilder setBackgroundViewColor:]
+-[SCLAlertViewBuilder iconTintColor]
+-[SCLAlertViewBuilder setIconTintColor:]
+-[SCLAlertViewBuilder circleIconHeight]
+-[SCLAlertViewBuilder setCircleIconHeight:]
+-[SCLAlertViewBuilder extensionBounds]
+-[SCLAlertViewBuilder setExtensionBounds:]
+-[SCLAlertViewBuilder statusBarHidden]
+-[SCLAlertViewBuilder setStatusBarHidden:]
+-[SCLAlertViewBuilder statusBarStyle]
+-[SCLAlertViewBuilder setStatusBarStyle:]
+-[SCLAlertViewBuilder alertIsDismissed]
+-[SCLAlertViewBuilder setAlertIsDismissed:]
+-[SCLAlertViewBuilder alertDismissAnimationIsCompleted]
+-[SCLAlertViewBuilder setAlertDismissAnimationIsCompleted:]
+-[SCLAlertViewBuilder alertShowAnimationIsCompleted]
+-[SCLAlertViewBuilder setAlertShowAnimationIsCompleted:]
+-[SCLAlertViewBuilder removeTopCircle]
+-[SCLAlertViewBuilder setRemoveTopCircle:]
+-[SCLAlertViewBuilder addCustomView]
+-[SCLAlertViewBuilder setAddCustomView:]
+-[SCLAlertViewBuilder addTextField]
+-[SCLAlertViewBuilder setAddTextField:]
+-[SCLAlertViewBuilder addCustomTextField]
+-[SCLAlertViewBuilder setAddCustomTextField:]
+-[SCLAlertViewBuilder addSwitchViewWithLabelTitle]
+-[SCLAlertViewBuilder setAddSwitchViewWithLabelTitle:]
+-[SCLAlertViewBuilder addTimerToButtonIndex]
+-[SCLAlertViewBuilder setAddTimerToButtonIndex:]
+-[SCLAlertViewBuilder setTitleFontFamily]
+-[SCLAlertViewBuilder setSetTitleFontFamily:]
+-[SCLAlertViewBuilder setBodyTextFontFamily]
+-[SCLAlertViewBuilder setSetBodyTextFontFamily:]
+-[SCLAlertViewBuilder setButtonsTextFontFamily]
+-[SCLAlertViewBuilder setSetButtonsTextFontFamily:]
+-[SCLAlertViewBuilder addButtonWithActionBlock]
+-[SCLAlertViewBuilder setAddButtonWithActionBlock:]
+-[SCLAlertViewBuilder addButtonWithValidationBlock]
+-[SCLAlertViewBuilder setAddButtonWithValidationBlock:]
+-[SCLAlertViewBuilder addButtonWithTarget]
+-[SCLAlertViewBuilder setAddButtonWithTarget:]
+-[SCLAlertViewBuilder addButtonWithBuilder]
+-[SCLAlertViewBuilder setAddButtonWithBuilder:]
+-[SCLAlertViewBuilder addTextFieldWithBuilder]
+-[SCLAlertViewBuilder setAddTextFieldWithBuilder:]
+-[SCLAlertViewBuilder .cxx_destruct]
+-[SCLAlertViewShowBuilder setupFluent]
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke
+___copy_helper_block_.1485
+___destroy_helper_block_.1486
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1491
+___copy_helper_block_.1494
+___destroy_helper_block_.1495
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1498
+___copy_helper_block_.1501
+___destroy_helper_block_.1502
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1507
+___copy_helper_block_.1508
+___destroy_helper_block_.1509
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1512
+___copy_helper_block_.1515
+___destroy_helper_block_.1516
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1520
+___copy_helper_block_.1523
+___destroy_helper_block_.1524
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1528
+___copy_helper_block_.1531
+___destroy_helper_block_.1532
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1537
+___copy_helper_block_.1540
+___destroy_helper_block_.1541
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1545
+___copy_helper_block_.1548
+___destroy_helper_block_.1549
+___38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1554
+___copy_helper_block_.1557
+___destroy_helper_block_.1558
+-[SCLAlertViewShowBuilder showAlertView:]
+-[SCLAlertViewShowBuilder showAlertView:onViewController:]
+-[SCLAlertViewShowBuilder parameterViewController]
+-[SCLAlertViewShowBuilder setParameterViewController:]
+-[SCLAlertViewShowBuilder parameterImage]
+-[SCLAlertViewShowBuilder setParameterImage:]
+-[SCLAlertViewShowBuilder parameterColor]
+-[SCLAlertViewShowBuilder setParameterColor:]
+-[SCLAlertViewShowBuilder parameterTitle]
+-[SCLAlertViewShowBuilder setParameterTitle:]
+-[SCLAlertViewShowBuilder parameterSubTitle]
+-[SCLAlertViewShowBuilder setParameterSubTitle:]
+-[SCLAlertViewShowBuilder parameterCompleteText]
+-[SCLAlertViewShowBuilder setParameterCompleteText:]
+-[SCLAlertViewShowBuilder parameterCloseButtonTitle]
+-[SCLAlertViewShowBuilder setParameterCloseButtonTitle:]
+-[SCLAlertViewShowBuilder parameterStyle]
+-[SCLAlertViewShowBuilder setParameterStyle:]
+-[SCLAlertViewShowBuilder parameterDuration]
+-[SCLAlertViewShowBuilder setParameterDuration:]
+-[SCLAlertViewShowBuilder viewController]
+-[SCLAlertViewShowBuilder setViewController:]
+-[SCLAlertViewShowBuilder image]
+-[SCLAlertViewShowBuilder setImage:]
+-[SCLAlertViewShowBuilder color]
+-[SCLAlertViewShowBuilder setColor:]
+-[SCLAlertViewShowBuilder title]
+-[SCLAlertViewShowBuilder setTitle:]
+-[SCLAlertViewShowBuilder subTitle]
+-[SCLAlertViewShowBuilder setSubTitle:]
+-[SCLAlertViewShowBuilder completeText]
+-[SCLAlertViewShowBuilder setCompleteText:]
+-[SCLAlertViewShowBuilder style]
+-[SCLAlertViewShowBuilder setStyle:]
+-[SCLAlertViewShowBuilder closeButtonTitle]
+-[SCLAlertViewShowBuilder setCloseButtonTitle:]
+-[SCLAlertViewShowBuilder duration]
+-[SCLAlertViewShowBuilder setDuration:]
+-[SCLAlertViewShowBuilder show]
+-[SCLAlertViewShowBuilder setShow:]
+-[SCLAlertViewShowBuilder .cxx_destruct]
+_OBJC_CLASS_$_SCLAlertView
+_OBJC_IVAR_$_SCLAlertView._canAddObservers
+_kCircleBackgroundTopPosition
+_kCircleHeight
+_kCircleHeightBackground
+_kActivityIndicatorHeight
+_kTitleTop
+_OBJC_IVAR_$_SCLAlertView._titleFontFamily
+_OBJC_IVAR_$_SCLAlertView._bodyTextFontFamily
+_OBJC_IVAR_$_SCLAlertView._buttonsFontFamily
+_OBJC_IVAR_$_SCLAlertView._titleFontSize
+_OBJC_IVAR_$_SCLAlertView._bodyFontSize
+_OBJC_IVAR_$_SCLAlertView._buttonsFontSize
+_OBJC_IVAR_$_SCLAlertView._labelTitle
+_OBJC_IVAR_$_SCLAlertView._viewText
+_OBJC_IVAR_$_SCLAlertView._contentView
+_OBJC_IVAR_$_SCLAlertView._circleView
+_OBJC_IVAR_$_SCLAlertView._circleViewBackground
+_OBJC_IVAR_$_SCLAlertView._circleIconImageView
+_OBJC_IVAR_$_SCLAlertView._backgroundView
+_OBJC_IVAR_$_SCLAlertView._buttons
+_OBJC_IVAR_$_SCLAlertView._inputs
+_OBJC_IVAR_$_SCLAlertView._customViews
+_OBJC_IVAR_$_SCLAlertView._circleIconHeight
+_OBJC_IVAR_$_SCLAlertView._windowWidth
+_OBJC_IVAR_$_SCLAlertView._titleHeight
+_OBJC_IVAR_$_SCLAlertView._subTitleY
+_OBJC_IVAR_$_SCLAlertView._subTitleHeight
+_OBJC_IVAR_$_SCLAlertView._rootViewController
+_OBJC_IVAR_$_SCLAlertView._useLargerIcon
+_OBJC_IVAR_$_SCLAlertView._usingNewWindow
+_OBJC_IVAR_$_SCLAlertView._windowHeight
+_OBJC_IVAR_$_SCLAlertView._horizontalButtons
+_OBJC_IVAR_$_SCLAlertView._shouldDismissOnTapOutside
+_OBJC_IVAR_$_SCLAlertView._gestureRecognizer
+_OBJC_IVAR_$_SCLAlertView._restoreInteractivePopGestureEnabled
+_OBJC_IVAR_$_SCLAlertView._restoreInteractivePopGestureDelegate
+_OBJC_IVAR_$_SCLAlertView._backgroundViewColor
+_OBJC_IVAR_$_SCLAlertView._soundURL
+_OBJC_IVAR_$_SCLAlertView._soundID
+_OBJC_IVAR_$_SCLAlertView._activityIndicatorView
+_OBJC_CLASS_$_SCLTextView
+_OBJC_IVAR_$_SCLAlertView._keyboardIsVisible
+___block_descriptor_tmp
+___block_descriptor_tmp.256
+_OBJC_CLASS_$_SCLButton
+_OBJC_IVAR_$_SCLAlertView._completeButtonFormatBlock
+_OBJC_IVAR_$_SCLAlertView._buttonFormatBlock
+_buttonTimer
+_OBJC_IVAR_$_SCLAlertView._SCLAlertWindow
+_OBJC_IVAR_$_SCLAlertView._customViewColor
+_OBJC_IVAR_$_SCLAlertView._attributedFormatBlock
+_durationTimer
+___block_descriptor_tmp.400
+_OBJC_IVAR_$_SCLAlertView._forceHideBlock
+_OBJC_IVAR_$_SCLAlertView._extensionBounds
+_OBJC_IVAR_$_SCLAlertView._backgroundOpacity
+_OBJC_IVAR_$_SCLAlertView._backgroundType
+_OBJC_IVAR_$_SCLAlertView._showAnimationType
+_OBJC_IVAR_$_SCLAlertView._hideAnimationType
+___block_descriptor_tmp.495
+___block_descriptor_tmp.510
+___block_descriptor_tmp.515
+___block_descriptor_tmp.519
+___block_descriptor_tmp.522
+___block_descriptor_tmp.526
+___block_descriptor_tmp.529
+___block_descriptor_tmp.533
+___block_descriptor_tmp.536
+___block_descriptor_tmp.540
+___block_descriptor_tmp.545
+___block_descriptor_tmp.549
+___block_descriptor_tmp.552
+___block_descriptor_tmp.556
+___block_descriptor_tmp.561
+___block_descriptor_tmp.564
+___block_descriptor_tmp.570
+___block_descriptor_tmp.575
+___block_descriptor_tmp.579
+___block_descriptor_tmp.584
+___block_descriptor_tmp.592
+___block_descriptor_tmp.596
+___block_descriptor_tmp.599
+___block_descriptor_tmp.602
+___block_descriptor_tmp.606
+___block_descriptor_tmp.610
+___block_descriptor_tmp.613
+___block_descriptor_tmp.616
+___block_descriptor_tmp.620
+___block_descriptor_tmp.624
+___block_descriptor_tmp.627
+___block_descriptor_tmp.630
+___block_descriptor_tmp.634
+___block_descriptor_tmp.638
+___block_descriptor_tmp.641
+___block_descriptor_tmp.644
+___block_descriptor_tmp.648
+___block_descriptor_tmp.652
+___block_descriptor_tmp.655
+___block_descriptor_tmp.658
+_OBJC_IVAR_$_SCLAlertView._cornerRadius
+_OBJC_IVAR_$_SCLAlertView._tintTopCircle
+_OBJC_IVAR_$_SCLAlertView._iconTintColor
+_OBJC_IVAR_$_SCLAlertView._statusBarHidden
+_OBJC_IVAR_$_SCLAlertView._statusBarStyle
+_OBJC_IVAR_$_SCLAlertView._previousWindow
+_OBJC_IVAR_$_SCLAlertView._dismissBlock
+_OBJC_IVAR_$_SCLAlertView._dismissAnimationCompletionBlock
+_OBJC_IVAR_$_SCLAlertView._showAnimationCompletionBlock
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+_OBJC_METACLASS_$_SCLAlertView
+_OBJC_CLASS_$_SCLAlertViewBuilder__WithFluent
+l_OBJC_PROTOCOL_$_SCLItemsBuilder__Protocol__Fluent
+l_OBJC_LABEL_PROTOCOL_$_SCLItemsBuilder__Protocol__Fluent
+_OBJC_METACLASS_$_SCLAlertViewBuilder__WithFluent
+___block_descriptor_tmp.1046
+_OBJC_IVAR_$_SCLALertViewTextFieldBuilder._textField
+_OBJC_IVAR_$_SCLALertViewTextFieldBuilder._title
+_OBJC_IVAR_$_SCLALertViewTextFieldBuilder._parameterTitle
+_OBJC_METACLASS_$_SCLALertViewTextFieldBuilder
+_OBJC_CLASS_$_SCLALertViewTextFieldBuilder
+___block_descriptor_tmp.1069
+___block_descriptor_tmp.1076
+___block_descriptor_tmp.1083
+___block_descriptor_tmp.1090
+___block_descriptor_tmp.1097
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._button
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._title
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._target
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._selector
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._actionBlock
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._validationBlock
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._parameterTitle
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._parameterTarget
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._parameterSelector
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._parameterActionBlock
+_OBJC_IVAR_$_SCLALertViewButtonBuilder._parameterValidationBlock
+_OBJC_METACLASS_$_SCLALertViewButtonBuilder
+_OBJC_CLASS_$_SCLALertViewButtonBuilder
+___block_descriptor_tmp.1144
+___block_descriptor_tmp.1149
+___block_descriptor_tmp.1154
+___block_descriptor_tmp.1160
+___block_descriptor_tmp.1166
+___block_descriptor_tmp.1172
+___block_descriptor_tmp.1176
+___block_descriptor_tmp.1182
+___block_descriptor_tmp.1188
+___block_descriptor_tmp.1193
+___block_descriptor_tmp.1197
+___block_descriptor_tmp.1203
+___block_descriptor_tmp.1208
+___block_descriptor_tmp.1212
+___block_descriptor_tmp.1216
+___block_descriptor_tmp.1222
+___block_descriptor_tmp.1226
+___block_descriptor_tmp.1231
+___block_descriptor_tmp.1235
+___block_descriptor_tmp.1241
+___block_descriptor_tmp.1246
+___block_descriptor_tmp.1251
+___block_descriptor_tmp.1256
+___block_descriptor_tmp.1263
+___block_descriptor_tmp.1270
+___block_descriptor_tmp.1278
+___block_descriptor_tmp.1286
+___block_descriptor_tmp.1294
+___block_descriptor_tmp.1302
+___block_descriptor_tmp.1309
+___block_descriptor_tmp.1317
+___block_descriptor_tmp.1325
+___block_descriptor_tmp.1332
+___block_descriptor_tmp.1339
+___block_descriptor_tmp.1346
+___block_descriptor_tmp.1354
+___block_descriptor_tmp.1362
+___block_descriptor_tmp.1375
+___block_descriptor_tmp.1383
+_OBJC_CLASS_$_SCLAlertViewBuilder
+_OBJC_IVAR_$_SCLAlertViewBuilder._alertView
+_OBJC_IVAR_$_SCLAlertViewBuilder._cornerRadius
+_OBJC_IVAR_$_SCLAlertViewBuilder._tintTopCircle
+_OBJC_IVAR_$_SCLAlertViewBuilder._useLargerIcon
+_OBJC_IVAR_$_SCLAlertViewBuilder._labelTitle
+_OBJC_IVAR_$_SCLAlertViewBuilder._viewText
+_OBJC_IVAR_$_SCLAlertViewBuilder._activityIndicatorView
+_OBJC_IVAR_$_SCLAlertViewBuilder._shouldDismissOnTapOutside
+_OBJC_IVAR_$_SCLAlertViewBuilder._soundURL
+_OBJC_IVAR_$_SCLAlertViewBuilder._attributedFormatBlock
+_OBJC_IVAR_$_SCLAlertViewBuilder._completeButtonFormatBlock
+_OBJC_IVAR_$_SCLAlertViewBuilder._buttonFormatBlock
+_OBJC_IVAR_$_SCLAlertViewBuilder._forceHideBlock
+_OBJC_IVAR_$_SCLAlertViewBuilder._hideAnimationType
+_OBJC_IVAR_$_SCLAlertViewBuilder._showAnimationType
+_OBJC_IVAR_$_SCLAlertViewBuilder._backgroundType
+_OBJC_IVAR_$_SCLAlertViewBuilder._customViewColor
+_OBJC_IVAR_$_SCLAlertViewBuilder._backgroundViewColor
+_OBJC_IVAR_$_SCLAlertViewBuilder._iconTintColor
+_OBJC_IVAR_$_SCLAlertViewBuilder._circleIconHeight
+_OBJC_IVAR_$_SCLAlertViewBuilder._extensionBounds
+_OBJC_IVAR_$_SCLAlertViewBuilder._statusBarHidden
+_OBJC_IVAR_$_SCLAlertViewBuilder._statusBarStyle
+_OBJC_IVAR_$_SCLAlertViewBuilder._alertIsDismissed
+_OBJC_IVAR_$_SCLAlertViewBuilder._alertDismissAnimationIsCompleted
+_OBJC_IVAR_$_SCLAlertViewBuilder._alertShowAnimationIsCompleted
+_OBJC_IVAR_$_SCLAlertViewBuilder._removeTopCircle
+_OBJC_IVAR_$_SCLAlertViewBuilder._addCustomView
+_OBJC_IVAR_$_SCLAlertViewBuilder._addTextField
+_OBJC_IVAR_$_SCLAlertViewBuilder._addCustomTextField
+_OBJC_IVAR_$_SCLAlertViewBuilder._addSwitchViewWithLabelTitle
+_OBJC_IVAR_$_SCLAlertViewBuilder._addTimerToButtonIndex
+_OBJC_IVAR_$_SCLAlertViewBuilder._setTitleFontFamily
+_OBJC_IVAR_$_SCLAlertViewBuilder._setBodyTextFontFamily
+_OBJC_IVAR_$_SCLAlertViewBuilder._setButtonsTextFontFamily
+_OBJC_IVAR_$_SCLAlertViewBuilder._addButtonWithActionBlock
+_OBJC_IVAR_$_SCLAlertViewBuilder._addButtonWithValidationBlock
+_OBJC_IVAR_$_SCLAlertViewBuilder._addButtonWithTarget
+_OBJC_IVAR_$_SCLAlertViewBuilder._addButtonWithBuilder
+_OBJC_IVAR_$_SCLAlertViewBuilder._addTextFieldWithBuilder
+_OBJC_METACLASS_$_SCLAlertViewBuilder
+___block_descriptor_tmp.1488
+___block_descriptor_tmp.1497
+___block_descriptor_tmp.1504
+___block_descriptor_tmp.1511
+___block_descriptor_tmp.1517
+___block_descriptor_tmp.1525
+___block_descriptor_tmp.1534
+___block_descriptor_tmp.1542
+___block_descriptor_tmp.1551
+___block_descriptor_tmp.1560
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterViewController
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterImage
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterColor
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterTitle
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterSubTitle
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterCompleteText
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterCloseButtonTitle
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterStyle
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._parameterDuration
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._viewController
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._image
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._color
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._title
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._subTitle
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._completeText
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._style
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._closeButtonTitle
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._duration
+_OBJC_IVAR_$_SCLAlertViewShowBuilder._show
+_OBJC_METACLASS_$_SCLAlertViewShowBuilder
+_OBJC_CLASS_$_SCLAlertViewShowBuilder
+_kCircleTopPosition
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLAlertView.m
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLAlertView.h
+__destroy_helper_block_
+__copy_helper_block_
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1554
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1545
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1537
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1528
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1520
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1512
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1507
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1498
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke.1491
+__38-[SCLAlertViewShowBuilder setupFluent]_block_invoke
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1378
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1365
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1357
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1349
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1342
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1335
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1328
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1320
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1312
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1305
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1297
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1289
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1281
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1273
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1266
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1259
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1252
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1247
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1242
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1236
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1232
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1227
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1223
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1217
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1213
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1209
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1204
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1198
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1194
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1189
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1183
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1177
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1173
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1167
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1161
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1155
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1150
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke.1145
+__34-[SCLAlertViewBuilder setupFluent]_block_invoke
+__40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1091
+__40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1084
+__40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1077
+__40-[SCLALertViewButtonBuilder setupFluent]_block_invoke.1070
+__40-[SCLALertViewButtonBuilder setupFluent]_block_invoke
+__43-[SCLALertViewTextFieldBuilder setupFluent]_block_invoke
+__28-[SCLAlertView simplyAppear]_block_invoke
+__31-[SCLAlertView slideInToCenter]_block_invoke.649
+__31-[SCLAlertView slideInToCenter]_block_invoke_2
+__31-[SCLAlertView slideInToCenter]_block_invoke.645
+__31-[SCLAlertView slideInToCenter]_block_invoke
+__33-[SCLAlertView slideInFromCenter]_block_invoke.635
+__33-[SCLAlertView slideInFromCenter]_block_invoke_2
+__33-[SCLAlertView slideInFromCenter]_block_invoke.631
+__33-[SCLAlertView slideInFromCenter]_block_invoke
+__32-[SCLAlertView slideInFromRight]_block_invoke.621
+__32-[SCLAlertView slideInFromRight]_block_invoke_2
+__32-[SCLAlertView slideInFromRight]_block_invoke.617
+__32-[SCLAlertView slideInFromRight]_block_invoke
+__31-[SCLAlertView slideInFromLeft]_block_invoke.607
+__31-[SCLAlertView slideInFromLeft]_block_invoke_2
+__31-[SCLAlertView slideInFromLeft]_block_invoke.603
+__31-[SCLAlertView slideInFromLeft]_block_invoke
+__33-[SCLAlertView slideInFromBottom]_block_invoke.593
+__33-[SCLAlertView slideInFromBottom]_block_invoke_2
+__33-[SCLAlertView slideInFromBottom]_block_invoke.585
+__33-[SCLAlertView slideInFromBottom]_block_invoke
+__30-[SCLAlertView slideInFromTop]_block_invoke.576
+__30-[SCLAlertView slideInFromTop]_block_invoke
+__22-[SCLAlertView fadeIn]_block_invoke.565
+__22-[SCLAlertView fadeIn]_block_invoke
+__31-[SCLAlertView simplyDisappear]_block_invoke
+__34-[SCLAlertView slideOutFromCenter]_block_invoke.553
+__34-[SCLAlertView slideOutFromCenter]_block_invoke
+__32-[SCLAlertView slideOutToCenter]_block_invoke.546
+__32-[SCLAlertView slideOutToCenter]_block_invoke
+__31-[SCLAlertView slideOutToRight]_block_invoke.537
+__31-[SCLAlertView slideOutToRight]_block_invoke
+__30-[SCLAlertView slideOutToLeft]_block_invoke.530
+__30-[SCLAlertView slideOutToLeft]_block_invoke
+__29-[SCLAlertView slideOutToTop]_block_invoke.523
+__29-[SCLAlertView slideOutToTop]_block_invoke
+__32-[SCLAlertView slideOutToBottom]_block_invoke.516
+__32-[SCLAlertView slideOutToBottom]_block_invoke
+__36-[SCLAlertView fadeOutWithDuration:]_block_invoke.496
+__36-[SCLAlertView fadeOutWithDuration:]_block_invoke
+__81-[SCLAlertView showTitle:image:color:title:subTitle:duration:completeText:style:]_block_invoke
+__33-[SCLAlertView keyboardWillHide:]_block_invoke
+__33-[SCLAlertView keyboardWillShow:]_block_invoke
+-[CategoryVC viewDidLoad]
+-[CategoryVC guessEmojiButton:]
+-[CategoryVC guessMovieButton:]
+_OBJC_CLASS_$_CategoryVC
+_OBJC_METACLASS_$_CategoryVC
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/CategoryVC.m
+-[GameVC viewDidLoad]
+-[GameVC b1:]
+-[GameVC b2:]
+-[GameVC b3:]
+-[GameVC skip:]
+-[GameVC setScreen]
+-[GameVC setBollywoodArray]
+-[GameVC setHollywoodArray]
+-[GameVC showFailAlert]
+___23-[GameVC showFailAlert]_block_invoke
+-[GameVC showFailAlertFinal]
+___28-[GameVC showFailAlertFinal]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[GameVC showFailAlertAttempt]
+___30-[GameVC showFailAlertAttempt]_block_invoke
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[GameVC showPassedAlert]
+___25-[GameVC showPassedAlert]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
+-[GameVC showPassedAlertFinal]
+___30-[GameVC showPassedAlertFinal]_block_invoke
+___copy_helper_block_.272
+___destroy_helper_block_.273
+-[GameVC showCorrectAnswer]
+___27-[GameVC showCorrectAnswer]_block_invoke
+___copy_helper_block_.278
+___destroy_helper_block_.279
+-[GameVC showWin]
+___17-[GameVC showWin]_block_invoke
+___copy_helper_block_.302
+___destroy_helper_block_.303
+-[GameVC showWrongAnswer]
+___25-[GameVC showWrongAnswer]_block_invoke
+___copy_helper_block_.307
+___destroy_helper_block_.308
+-[GameVC movies]
+-[GameVC setMovies:]
+-[GameVC questionImageView]
+-[GameVC setQuestionImageView:]
+-[GameVC pointsLabel]
+-[GameVC setPointsLabel:]
+-[GameVC levelLabel]
+-[GameVC setLevelLabel:]
+-[GameVC emojiImageView]
+-[GameVC setEmojiImageView:]
+-[GameVC b1]
+-[GameVC setB1:]
+-[GameVC b2]
+-[GameVC setB2:]
+-[GameVC b3]
+-[GameVC setB3:]
+-[GameVC b4]
+-[GameVC setB4:]
+-[GameVC n1Label]
+-[GameVC setN1Label:]
+-[GameVC n2Label]
+-[GameVC setN2Label:]
+-[GameVC n3Label]
+-[GameVC setN3Label:]
+-[GameVC i1]
+-[GameVC setI1:]
+-[GameVC i2]
+-[GameVC setI2:]
+-[GameVC i3]
+-[GameVC setI3:]
+-[GameVC .cxx_destruct]
+_kSuccessTitle
+_kErrorTitle
+_kNoticeTitle
+_kWarningTitle
+_kInfoTitle
+_kSubtitle
+_kButtonTitle
+_kAttributeTitle
+_OBJC_CLASS_$_GameVC
+_OBJC_IVAR_$_GameVC._movies
+_OBJC_IVAR_$_GameVC.sum
+_OBJC_IVAR_$_GameVC.buttonCount
+_OBJC_IVAR_$_GameVC.index
+_OBJC_IVAR_$_GameVC.score
+_OBJC_IVAR_$_GameVC.count
+_OBJC_IVAR_$_GameVC.attempts
+_OBJC_IVAR_$_GameVC._n1Label
+_OBJC_IVAR_$_GameVC.answerString
+_OBJC_IVAR_$_GameVC._i1
+_OBJC_IVAR_$_GameVC._n2Label
+_OBJC_IVAR_$_GameVC._i2
+_OBJC_IVAR_$_GameVC._n3Label
+_OBJC_IVAR_$_GameVC._i3
+_OBJC_IVAR_$_GameVC._pointsLabel
+_OBJC_IVAR_$_GameVC.dataArray
+_OBJC_IVAR_$_GameVC.SelectedItem
+_OBJC_IVAR_$_GameVC._questionImageView
+_OBJC_IVAR_$_GameVC._levelLabel
+_OBJC_IVAR_$_GameVC.data
+_OBJC_IVAR_$_GameVC.t
+___block_descriptor_tmp.253
+___block_descriptor_tmp.258
+___block_descriptor_tmp.265
+___block_descriptor_tmp.274
+___block_descriptor_tmp.281
+___block_descriptor_tmp.304
+___block_descriptor_tmp.309
+_OBJC_IVAR_$_GameVC._emojiImageView
+_OBJC_IVAR_$_GameVC._b1
+_OBJC_IVAR_$_GameVC._b2
+_OBJC_IVAR_$_GameVC._b3
+_OBJC_IVAR_$_GameVC._b4
+_OBJC_IVAR_$_GameVC.target
+_OBJC_METACLASS_$_GameVC
+_OBJC_IVAR_$_GameVC.n1
+_OBJC_IVAR_$_GameVC.n2
+_OBJC_IVAR_$_GameVC.n3
+_OBJC_IVAR_$_GameVC.targetNumber
+_OBJC_IVAR_$_GameVC.randomButton
+_OBJC_IVAR_$_GameVC.timer
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/GameVC.m
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/GameVC.h
+__25-[GameVC showWrongAnswer]_block_invoke
+__17-[GameVC showWin]_block_invoke
+__27-[GameVC showCorrectAnswer]_block_invoke
+__30-[GameVC showPassedAlertFinal]_block_invoke
+__25-[GameVC showPassedAlert]_block_invoke
+__30-[GameVC showFailAlertAttempt]_block_invoke
+__28-[GameVC showFailAlertFinal]_block_invoke
+__23-[GameVC showFailAlert]_block_invoke
+-[UIImage(ImageEffects) applyLightEffect]
+-[UIImage(ImageEffects) applyExtraLightEffect]
+-[UIImage(ImageEffects) applyDarkEffect]
+-[UIImage(ImageEffects) applyTintEffectWithColor:]
+-[UIImage(ImageEffects) applyBlurWithRadius:tintColor:saturationDeltaFactor:maskImage:]
++[UIImage(ImageEffects) imageWithColor:]
++[UIImage(ImageEffects) convertViewToImage]
++[UIImage(ImageEffects) convertViewToImage:]
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/UIImage+ImageEffects.m
+-[SCLButton init]
+-[SCLButton initWithWindowWidth:]
+-[SCLButton initWithCoder:]
+-[SCLButton initWithFrame:]
+-[SCLButton setupWithWindowWidth:]
+-[SCLButton adjustWidthWithWindowWidth:numberOfButtons:]
+-[SCLButton setTitle:forState:]
+-[SCLButton setHighlighted:]
+-[SCLButton setDefaultBackgroundColor:]
+-[SCLButton setTimer:]
+-[SCLButton parseConfig:]
+-[SCLButton darkerColorForColor:]
+-[SCLButton lighterColorForColor:]
+-[SCLButton actionType]
+-[SCLButton setActionType:]
+-[SCLButton actionBlock]
+-[SCLButton setActionBlock:]
+-[SCLButton validationBlock]
+-[SCLButton setValidationBlock:]
+-[SCLButton completeButtonFormatBlock]
+-[SCLButton setCompleteButtonFormatBlock:]
+-[SCLButton buttonFormatBlock]
+-[SCLButton setButtonFormatBlock:]
+-[SCLButton defaultBackgroundColor]
+-[SCLButton target]
+-[SCLButton setTarget:]
+-[SCLButton selector]
+-[SCLButton setSelector:]
+-[SCLButton timer]
+-[SCLButton .cxx_destruct]
+_OBJC_IVAR_$_SCLButton._defaultBackgroundColor
+_OBJC_IVAR_$_SCLButton._timer
+_OBJC_IVAR_$_SCLButton._actionType
+_OBJC_IVAR_$_SCLButton._actionBlock
+_OBJC_IVAR_$_SCLButton._validationBlock
+_OBJC_IVAR_$_SCLButton._completeButtonFormatBlock
+_OBJC_IVAR_$_SCLButton._buttonFormatBlock
+_OBJC_IVAR_$_SCLButton._target
+_OBJC_IVAR_$_SCLButton._selector
+_OBJC_METACLASS_$_SCLButton
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLButton.m
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLButton.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/AppDelegate.m
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/AppDelegate.h
+-[SCLTextView init]
+-[SCLTextView initWithCoder:]
+-[SCLTextView initWithFrame:]
+-[SCLTextView setup]
+_OBJC_METACLASS_$_SCLTextView
+/Users/Macbook/Desktop/Guess The Movie/Emoji Challenge/SCLAlertView/SCLTextView.m
